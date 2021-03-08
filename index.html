@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Real Estate Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/dom.png">
+    link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<div class="top-container">
+<div id="navbar">
+  <ul>
+ <li><a href="#home">Home</a></li>
+ <li><a href="#opening">Offer</a></li>
+ <li><a href="#opening1">About</a></li>
+ <li><a href="#opening2">Advantages</a></li>
+ <li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<script>// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} </script>
+
+<p id="home"><h1>Easyrent</h1></p>
+<h2>Property Management Services</h2>
+<img src="images/city2.png" alt="" width="1350">
+</div>
+<hr>
+<div class="midle-container">
+<p id="opening"><h2>Our offer includes:</h2></p>
+<table>
+<tr>
+  <th><h3>01. Investment advice</h3></th>
+  <th><h3>02. Coordination of renovation works</h3></th>
+</tr>
+<tr>
+  <td width=50%><h4>We are looking for investment opportunities that will fit into the investor's budget, taking into account the type and location of the facility as well as the client's expectations. Then, we efficiently and professionally perform a multi-level project analysis, determining the investment strategy, the legal status of the property, its potential, and the risks associated with the investment.</h4></td>
+<td><h4>At this stage, we prepare the apartment for rent. We work with contractors who renovate, refresh and finish real estate in a way that ensures the highest possible profitability of the previously purchased investment.</h4></td>
+</tr>
+</table>
+<table>
+<tr>
+  <th><h3>03. Mediation in sales and rental</h3></th>
+  <th><h3>04. Property Management Services</h3></th>
+</tr>
+<tr>
+  <td width=50%><h4>We specialize in the sales and rental of residential and commercial properties, ensuring high quality of services. We prepare a marketing offer and photo materials for the effective presentation of the property by an agent at any time of the day, 7 days a week. We guarantee safety thanks to a thorough process of verification of potential buyers and tenants.</h4></td>
+<td><h4>At the very end, we will take care of your property, ensuring the security of contracts, annexes and cash flow throughout the entire rental period. And you? Enjoy your free time and secure cash flow.</h4></td>
+</tr>
+</table>
+</div>
+<div class="middle1-container">
+<p id="opening1"><h2 class="letters">Earn <span class="pro">100% passively.</span> Give us control over your properties and gain free time and money.</h2></p>
+<img class="lease" src="images/Lease.png" alt="" width="1150">
+</div>
+<div class="bottom-container">
+<p id="opening2"><h2 class="letters2">We are focusing on minimizing property maintenance costs and maximizing rental income.</h2></p>
+<h3 class="letters3">01. Real passive income</h3>
+<h3 class="letters3">02. Safe and fair rental</h3>
+<h3 class="letters3">03. Save time and problems</h3>
+<h3 class="letters3">04. Formalities under control</h3>
+<h3 class="letters3">05. Convenient cooperation</h3>
+<img class="house" src="images/untitled.png" width="230" alt="">
+</div>
+<div class="bottom2">
+<p id="contact"><h2>Tell us more about your apartment</h2></p>
+<a href="mailto:nkturtas@gmx.com" class="myButton">Contact Us</a>
+<h5 class="copy">&#169; 2021 Roman All rights reserved</h5>
+</div>
+  </body>
+</html>
